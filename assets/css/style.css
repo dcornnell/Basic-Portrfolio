@@ -1,0 +1,60 @@
+body {
+    color: gray;
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+    /* i guess browsers have a default margin and padding? */
+}
+
+a:link {
+    text-decoration: none;
+    color: grey
+}
+
+a:visited {
+    text-emphasis: none;
+    color: black;
+}
+
+h1 {
+    background-color: gray;
+    float: left;
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+    overflow: auto;
+    position: relative;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid grey;
+    background-color: darkgrey;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+
+.copyright {
+    padding: 15px;
+    width: 20%;
+    margin: 0 auto;
+}

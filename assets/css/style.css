@@ -5,7 +5,6 @@ body {
     font-family: arial;
     margin: 0px;
     padding: 0px;
-    /* i guess browsers have a default margin and padding? */
 }
 
 a:link {
@@ -18,12 +17,24 @@ a:visited {
     color: black;
 }
 
+a:hover {
+    color: blue;
+}
+
 h1 {
     background-color: gray;
     float: left;
     color: white;
     padding: 15px;
     margin: 0 auto;
+}
+
+h3 {
+    margin: 5px 0px;
+}
+
+p {
+    line-height: 175%
 }
 
 header {
@@ -49,7 +60,7 @@ footer {
     width: 80%;
     margin: 0 auto;
     background-color: white;
-    padding: 10px;
+    padding: 10px 10px 35px 10px;
     overflow: auto;
 }
 
@@ -59,7 +70,7 @@ footer {
 
 .navigation {
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 10%;
 }
 
@@ -68,8 +79,45 @@ footer {
     width: 20%;
     margin: 0 auto;
     font-size: 10px;
+    text-align: center;
 }
 
 img {
     float: left;
+    margin: 7px;
+}
+
+input {
+    width: 75%
+}
+
+.text {
+    width: 98%
+}
+
+.textarea {
+    height: 8em;
+    width: 98%;
+    margin-right: 20px;
+}
+
+.button {
+    background: none;
+    border: none;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: grey;
+    position: absolute;
+    ;
+    margin: 10px 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.no_padding {
+    padding: 0px;
 }

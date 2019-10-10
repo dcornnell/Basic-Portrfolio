@@ -1,4 +1,6 @@
 body {
+    background-image: url("../images/craft-paper.jpg");
+    background-color: antiquewhite;
     color: gray;
     font-family: arial;
     margin: 0px;
@@ -29,6 +31,7 @@ header {
     border-bottom: 1px solid grey;
     overflow: auto;
     position: relative;
+    background-color: white;
 }
 
 footer {
@@ -45,6 +48,13 @@ footer {
 .container {
     width: 80%;
     margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.border {
+    border: 1px solid lightgrey;
 }
 
 .navigation {
@@ -57,4 +67,9 @@ footer {
     padding: 15px;
     width: 20%;
     margin: 0 auto;
+    font-size: 10px;
+}
+
+img {
+    float: left;
 }

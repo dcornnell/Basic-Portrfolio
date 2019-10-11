@@ -25,10 +25,16 @@ h1 {
     color: white;
     padding: 20px;
     margin: 0 auto;
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.4em;
 }
 
 h3 {
     margin: 5px 0px;
+    font-size: 1.1em;
 }
 
 p {
@@ -95,7 +101,7 @@ footer {
 
 .navigation {
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 10%;
 }
 

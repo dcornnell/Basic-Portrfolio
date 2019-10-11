@@ -19,17 +19,25 @@ a:hover {
     color: blue;
 }
 
+hr {
+    margin: 0px 0px 20px;
+}
+
 h1 {
     background-color: gray;
     float: left;
     color: white;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0px 0px 0px 9%;
     font-size: 1.8em;
+    0px 0px 0px 9%
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.6em;
+    padding: 15px 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
 }
 
 h3 {
@@ -49,19 +57,20 @@ header {
 }
 
 footer {
-    margin-top: 30px;
-    border-top: 1px solid grey;
-    background-color: darkgrey;
+    margin-top: 50px;
+    border-top: 5px solid darkgrey;
+    background-color: grey;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     color: black;
+    z-index: 2;
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: auto auto 50px auto;
     background-color: white;
     padding: 10px;
     overflow: auto;
@@ -74,14 +83,14 @@ footer {
 .image_holder {
     width: 33%;
     float: left;
-    margin: 10px;
+    margin: 10px 20px 5px 0px;
     position: relative;
 }
 
 .caption {
     position: absolute;
     z-index: 1;
-    top: 85px;
+    top: 108px;
     background-color: darkgray;
     padding: 10px;
     width: 150px;
@@ -103,6 +112,7 @@ footer {
     position: absolute;
     top: 25px;
     right: 10%;
+    color: grey;
 }
 
 .copyright {
@@ -118,13 +128,15 @@ input {
 }
 
 .text {
-    width: 98%
+    width: 98%;
+    margin: 0px 0px 5px 0px;
 }
 
 .textarea {
     width: 98%;
     margin-right: 20px;
     padding: 0px 0px 10em 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 .button {
@@ -141,14 +153,6 @@ input {
 
 .button:hover {
     background-color: black;
-}
-
-.no_padding {
-    padding: 0px;
-}
-
-.no_margin {
-    margin: 0px;
 }
 
 img {
